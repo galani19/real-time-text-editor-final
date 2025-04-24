@@ -147,7 +147,8 @@ RUN bin/installDeps.sh && \
     fi
 
 
-FROM build_${BUILD_ENV} AS production
+#FROM build_${BUILD_ENV} AS production
+FROM node:18-alpine AS production
 
 ARG ETHERPAD_PLUGINS=
 ARG ETHERPAD_LOCAL_PLUGINS=
