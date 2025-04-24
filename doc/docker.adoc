@@ -373,7 +373,7 @@ For the editor container, you can also make it full width by adding `full-width-
 
 | `SKIN_VARIANTS`
 | multiple skin variants separated by spaces
-| `super-light-toolbar super-light-editor light-background`
+| `super-light- super-light-editor light-background`
 |===
 
 ==== Logging

@@ -5,11 +5,11 @@ form {
 }
 
 body {
-  background: url(images/fond.jpg) center center no-repeat fixed #fff;
+
   font-family: Quicksand, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #333;
+  color: #ebe4e4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
 }
 
 input {
-  color: #4a5d5c;
+  color:black;
 }
 
 #inner {
@@ -34,13 +34,13 @@ input {
   width: 350px;
   max-width: 350px;
   text-align: center;
-  color:#FFF;
+  color:#c3d5d4;
 }
 
 #label {
   text-shadow: none;
-  color: #FFF;
-  font-weight: normal;
+  color: black;
+  font-size: bold;
   text-align: center;
 }
 
@@ -51,8 +51,8 @@ input {
   text-shadow: none;
   font-size: 23px;
   line-height: 1.8;
-  color: #64d29b;
-  background: #586a69;
+  color: black;
+  background: #c3d5d4;
   border-radius: 3px;
   box-shadow: none;
   height: 53px;
@@ -65,8 +65,8 @@ button[type=submit] {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   left: 305px;
-  color: #64d29b;
-  background: #586a69;
+  color: black;
+  background: #c3d5d4;
   border: none;
   top: 0;
   opacity: 1;
@@ -76,8 +76,8 @@ button[type=submit] {
 #button:hover,
 button[type=submit]:hover {
   cursor: pointer;
-  background: #4a5d5c;
-  color: #64d29b;
+  background: #c3d5d4;
+  color: black;
 }
 
 #padname {
