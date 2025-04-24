@@ -3,7 +3,7 @@
 # https://github.com/ether/etherpad-lite
 #
 # Author: muxator
-ARG BUILD_ENV=git
+#ARG BUILD_ENV=git
 
 FROM node:alpine AS adminbuild
 RUN npm install -g pnpm@latest
@@ -130,7 +130,8 @@ FROM build AS build_copy
 
 
 
-FROM build_${BUILD_ENV} AS development
+#FROM build_${BUILD_ENV} AS development
+FROM node:18-alpine AS production
 
 ARG ETHERPAD_PLUGINS=
 ARG ETHERPAD_LOCAL_PLUGINS=
