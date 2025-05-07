@@ -131,7 +131,7 @@ FROM build AS build_copy
 
 
 #FROM build_${BUILD_ENV} AS development
-FROM node:18-alpine AS production
+FROM node:24-alpine AS production
 
 ARG ETHERPAD_PLUGINS=
 ARG ETHERPAD_LOCAL_PLUGINS=
@@ -148,7 +148,7 @@ RUN bin/installDeps.sh && \
 
 
 #FROM build_${BUILD_ENV} AS production
-FROM node:18-alpine AS production
+FROM node:24-alpine AS production
 
 ARG ETHERPAD_PLUGINS=
 ARG ETHERPAD_LOCAL_PLUGINS=
